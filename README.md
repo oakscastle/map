@@ -8,8 +8,8 @@ Two initial use cases:
 
 # Participation
 
-* [Realtime](https://oakscastle.slack.com/messages/map/) ([*e-mail for invite*](Castle%20Membership%20%3Cmembership@oakscastle.org%3E)
-* [Asyncronous](map@oakscastle.org)
+* [Realtime](https://oakscastle.slack.com/messages/map/) *([e-mail for invite](mailto:Castle%20Membership%20%3Cmembership@oakscastle.org%3E))*
+* [Asyncronous](mailto:map@oakscastle.org)
 
 # Previous Work
 
