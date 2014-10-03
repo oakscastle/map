@@ -13,8 +13,8 @@ Map of The Castle
 
 ## Previous Work
 
-This project will be, in part, a continuation of [`dhappy/housing`](https://github.com/dhappy/housing).
+This project will be, in part, a continuation of [`dhappy/housing`](https://github.com/dhappy/housing), which existed to support [The Anarchists' Grills](dhappy.org/.../restaurant/Anarchists' Grill/).
 
 ## Future Work
 
-The project should develop technologies necessary for [Yggdrasil](https://github.com/dhappy/yggdrasil).
+A planned project in the series is [Yggdrasil](https://github.com/dhappy/yggdrasil).
