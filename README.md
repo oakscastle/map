@@ -8,7 +8,7 @@ Map of [The Castle](http://oakscastle.org)
 
 ## Participation
 
-* [Realtime (Slack)](https://oakscastle.slack.com/messages/map/) *([e-mail e-mail for an invite](mailto:Castle%20Membership%20%3Cmembership@oakscastle.org%3E))*
+* [Realtime (Slack)](https://oakscastle.slack.com/messages/map/) *([e-mail your e-mail for an invite](mailto:Castle%20Membership%20%3Cmembership@oakscastle.org%3E))*
 * [Asyncronous (Mailing List)](http://lists.oakscastle.org/listinfo.cgi/map-oakscastle.org)
 
 ## Previous Work
