@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href='index.css' type='text/css'?>
 <!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 viewBox="0 0 5669.29 2267.72">
 <polygon fill="#A7A9AC" stroke="#000000" stroke-miterlimit="10" points="3412,703 2176,703 2176,-13 2341,-13 2341,-268 
 	3247.999,-268 3247,-12 3412,-12 "/>
-<polygon fill="#726658" stroke="#000000" stroke-miterlimit="10" points="3363.922,708.127 2224.154,704.127 2224.154,28.668 
+<polygon id='lower-patio' fill="#726658" stroke="#000000" stroke-miterlimit="10" points="3363.922,708.127 2224.154,704.127 2224.154,28.668 
 	2380.791,29.004 2381.784,-226.69 3211.861,-226.69 3211.692,28.979 3363.922,28.643 "/>
 <path fill="#BCBEC0" stroke="#000000" stroke-miterlimit="10" d="M3156.934,2662.201v-1128.4l1591.979-1.385V704.515l-1591.979,0
 	V427.054l-0.02,0.157l-109.283-113.52h-508.717l-110,118.362v266.292H770.528H605.196c0,0-460.092-27.648-468.196,346.655
@@ -14,13 +15,13 @@
 <polyline fill="#BCBEC0" stroke="#000000" stroke-miterlimit="10" points="2902.862,1676.012 2902.862,2258.012 2433.862,2258.012 
 	"/>
 <rect x="2464.434" y="1699.749" fill="#009444" stroke="#000000" stroke-miterlimit="10" width="407.543" height="527.244"/>
-<polygon fill="#9E1F63" stroke="#000000" stroke-miterlimit="10" points="3031.297,346.831 2558.58,345.831 2465.903,443.618 
+<polygon id='parlor' class='area' fill="#9E1F63" stroke="#000000" stroke-miterlimit="10" points="3031.297,346.831 2558.58,345.831 2465.903,443.618 
 	2465.903,1061.9 3123.541,1061.9 3125.541,445.618 "/>
 <polygon fill="#A97C50" stroke="#000000" stroke-miterlimit="10" points="3126.862,1676.012 2609,1676.012 2609,1516 2466,1516 
 	2465.862,1039.012 3123.862,1039.012 "/>
 <path fill="#726658" stroke="#000000" stroke-miterlimit="10" d="M2583.58,449.877"/>
 <path fill="#726658" stroke="#000000" stroke-miterlimit="10" d="M2583.58,449.877"/>
-<rect x="1264.291" y="733.297" fill="#FBB040" stroke="#000000" stroke-miterlimit="10" width="1187.716" height="615.119"/>
+<rect id='ballroom' class='area' x="1264.291" y="733.297" fill="#FBB040" stroke="#000000" stroke-miterlimit="10" width="1187.716" height="615.119"/>
 <rect x="1233.185" y="794.011" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="34.016" height="102.047"/>
 <rect x="1234.042" y="1183.727" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="34.015" height="102.047"/>
 <rect x="2441.757" y="781.909" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="34.015" height="184.252"/>
@@ -39,7 +40,7 @@
 <rect x="2701.291" y="1333.297" fill="#603913" stroke="#000000" stroke-miterlimit="10" width="246.614" height="181.418"/>
 <rect x="2683.862" y="1044.012" fill="#58595B" width="215.433" height="34.016"/>
 <rect x="2684.433" y="992.726" fill="#58595B" width="215.433" height="34.016"/>
-<rect x="771.144" y="734.754" fill="#726658" stroke="#000000" stroke-miterlimit="10" width="462.047" height="616.378"/>
+<rect id='front_porch' class='area' x="771.144" y="734.754" fill="#726658" stroke="#000000" stroke-miterlimit="10" width="462.047" height="616.378"/>
 <rect x="1137.044" y="950.813" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="96.378" height="206.929"/>
 <rect x="3136.291" y="740.44" fill="#F7941E" stroke="#000000" stroke-miterlimit="10" width="651.97" height="490.394"/>
 <rect x="3051.436" y="1007.476" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="86.456" height="55.276"/>
@@ -229,7 +230,7 @@
 <line fill="#F7941E" stroke="#000000" stroke-miterlimit="10" x1="2881.335" y1="1760.937" x2="2881.335" y2="1865.067"/>
 <line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="2890.657" y1="2048.976" x2="2890.657" y2="2152.677"/>
 <line fill="#F7941E" stroke="#000000" stroke-miterlimit="10" x1="2883.271" y1="2049.728" x2="2883.271" y2="2153.858"/>
-<path fill="#726658" stroke="#000000" stroke-miterlimit="10" d="M735.95,1350.436l-128.25-0.408
+<path id='bow_porch' fill="#726658" stroke="#000000" stroke-miterlimit="10" d="M735.95,1350.436l-128.25-0.408
 	c-4.997-0.088-433.367,8.584-433.367-307.027c0-328.897,429.37-308.94,432.758-308.893l128.859-0.853V1350.436z"/>
 <line fill="#726658" stroke="#000000" stroke-miterlimit="10" x1="872.189" y1="1357.578" x2="1127.307" y2="1357.578"/>
 <rect x="874.689" y="1351.579" fill="#E6E6E6" stroke="#000000" stroke-miterlimit="10" width="253.487" height="34.498"/>
