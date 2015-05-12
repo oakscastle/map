@@ -7,3 +7,7 @@ html, body, #map {
 #map {
     width: 100%;
 }
+
+#panel {
+    position: absolute;
+}
