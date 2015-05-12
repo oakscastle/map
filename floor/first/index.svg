@@ -3,10 +3,10 @@
 <!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 viewBox="0 0 5669.29 2267.72">
+     viewBox="130 -280 4650 2960">
 <polygon fill="#A7A9AC" stroke="#000000" stroke-miterlimit="10" points="3412,703 2176,703 2176,-13 2341,-13 2341,-268 
 	3247.999,-268 3247,-12 3412,-12 "/>
-<polygon id='lower-patio' fill="#726658" stroke="#000000" stroke-miterlimit="10" points="3363.922,708.127 2224.154,704.127 2224.154,28.668 
+<polygon id='lower-patio' class='area' fill="#726658" stroke="#000000" stroke-miterlimit="10" points="3363.922,708.127 2224.154,704.127 2224.154,28.668 
 	2380.791,29.004 2381.784,-226.69 3211.861,-226.69 3211.692,28.979 3363.922,28.643 "/>
 <path fill="#BCBEC0" stroke="#000000" stroke-miterlimit="10" d="M3156.934,2662.201v-1128.4l1591.979-1.385V704.515l-1591.979,0
 	V427.054l-0.02,0.157l-109.283-113.52h-508.717l-110,118.362v266.292H770.528H605.196c0,0-460.092-27.648-468.196,346.655
@@ -14,10 +14,10 @@
 	L3156.934,2662.201z"/>
 <polyline fill="#BCBEC0" stroke="#000000" stroke-miterlimit="10" points="2902.862,1676.012 2902.862,2258.012 2433.862,2258.012 
 	"/>
-<rect x="2464.434" y="1699.749" fill="#009444" stroke="#000000" stroke-miterlimit="10" width="407.543" height="527.244"/>
+<rect id='study' class='area' x="2464.434" y="1699.749" fill="#009444" stroke="#000000" stroke-miterlimit="10" width="407.543" height="527.244"/>
 <polygon id='parlor' class='area' fill="#9E1F63" stroke="#000000" stroke-miterlimit="10" points="3031.297,346.831 2558.58,345.831 2465.903,443.618 
 	2465.903,1061.9 3123.541,1061.9 3125.541,445.618 "/>
-<polygon fill="#A97C50" stroke="#000000" stroke-miterlimit="10" points="3126.862,1676.012 2609,1676.012 2609,1516 2466,1516 
+<polygon id='reception' class='area' fill="#A97C50" stroke="#000000" stroke-miterlimit="10" points="3126.862,1676.012 2609,1676.012 2609,1516 2466,1516 
 	2465.862,1039.012 3123.862,1039.012 "/>
 <path fill="#726658" stroke="#000000" stroke-miterlimit="10" d="M2583.58,449.877"/>
 <path fill="#726658" stroke="#000000" stroke-miterlimit="10" d="M2583.58,449.877"/>
@@ -29,26 +29,26 @@
 <rect x="2450.72" y="1289.869" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="86.457" height="82.205"/>
 <polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="2538.177,1064.609 2451.72,1063.609 2451.72,1009.333 
 	2538.177,1009.333 "/>
-<rect x="2220.72" y="1372.584" fill="#8DC63F" stroke="#000000" stroke-miterlimit="10" width="247.26" height="143.149"/>
+<rect id='hall' class='area' x="2220.72" y="1372.584" fill="#8DC63F" stroke="#000000" stroke-miterlimit="10" width="247.26" height="143.149"/>
 <rect x="2187.899" y="1386.728" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="34.016" height="102.047"/>
 <polygon fill="#9B8579" stroke="#000000" stroke-miterlimit="10" points="2807.148,1676.297 2710.72,1676.297 2710.72,1534.727 
 	2807.148,1536.727 "/>
 <rect x="2466.72" y="1535.012" fill="#9B8579" stroke="#000000" stroke-miterlimit="10" width="124.143" height="145.429"/>
-<polygon fill="#EC008C" stroke="#000000" stroke-miterlimit="10" points="2218.72,1535.297 2450.005,1535.297 2450.005,1681.154 
+<polygon id='bath' class='area' fill="#EC008C" stroke="#000000" stroke-miterlimit="10" points="2218.72,1535.297 2450.005,1535.297 2450.005,1681.154 
 	2219.72,1681.154 "/>
 <rect x="2632.862" y="1008.298" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="323.149" height="55.275"/>
-<rect x="2701.291" y="1333.297" fill="#603913" stroke="#000000" stroke-miterlimit="10" width="246.614" height="181.418"/>
+<rect id='desk' class='area' x="2701.291" y="1333.297" fill="#603913" stroke="#000000" stroke-miterlimit="10" width="246.614" height="181.418"/>
 <rect x="2683.862" y="1044.012" fill="#58595B" width="215.433" height="34.016"/>
 <rect x="2684.433" y="992.726" fill="#58595B" width="215.433" height="34.016"/>
 <rect id='front_porch' class='area' x="771.144" y="734.754" fill="#726658" stroke="#000000" stroke-miterlimit="10" width="462.047" height="616.378"/>
 <rect x="1137.044" y="950.813" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="96.378" height="206.929"/>
-<rect x="3136.291" y="740.44" fill="#F7941E" stroke="#000000" stroke-miterlimit="10" width="651.97" height="490.394"/>
+<rect id='dining-room' class='area' x="3136.291" y="740.44" fill="#F7941E" stroke="#000000" stroke-miterlimit="10" width="651.97" height="490.394"/>
 <rect x="3051.436" y="1007.476" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="86.456" height="55.276"/>
 <rect x="3115.757" y="781.909" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="34.016" height="184.252"/>
 <rect x="3798.733" y="1122.017" fill="#F7941E" stroke="#000000" stroke-miterlimit="10" width="143.15" height="108.473"/>
 <rect x="3798.478" y="1023.78" fill="#F7941E" stroke="#000000" stroke-miterlimit="10" width="108.803" height="90.709"/>
 <text transform="matrix(1 0 0 1 3852.4521 1068.6943)" font-family="'MyriadPro-Regular'" font-size="12">Elevator</text>
-<polygon fill="#2BB673" stroke="#000000" stroke-miterlimit="10" points="4713.862,989.012 4563.862,989.012 4563.862,1087.012 
+<polygon id='kitchen' class='area' fill="#2BB673" stroke="#000000" stroke-miterlimit="10" points="4713.862,989.012 4563.862,989.012 4563.862,1087.012 
 	4457.122,1087.012 4456.862,1110.783 4101.862,1111.012 4101.862,1229.783 3961.862,1229.783 3961.861,1128.228 3974.165,1126.994 
 	3973.861,1105.17 3916.861,1105.637 3916.861,893.185 3799.933,893.185 3799.933,740.847 4713.052,740.847 "/>
 <rect x="3775.862" y="793.555" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="34.016" height="86.457"/>
@@ -65,7 +65,7 @@
 <path fill="#BCBEC0" stroke="#000000" stroke-miterlimit="10" d="M3008.557,1699.264"/>
 <line fill="#BCBEC0" stroke="#000000" stroke-miterlimit="10" x1="3336.589" y1="523.624" x2="3336.589" y2="557.64"/>
 <rect x="2352.65" y="1510.861" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="90.709" height="34.016"/>
-<rect x="3158.862" y="1733.382" fill="#BCBEC0" stroke="#000000" stroke-miterlimit="10" width="1348" height="201.26"/>
+<rect id='ramp' class='area' x="3158.862" y="1733.382" fill="#BCBEC0" stroke="#000000" stroke-miterlimit="10" width="1348" height="201.26"/>
 <rect x="4532.862" y="1247.831" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="34.016" height="53.858"/>
 <rect x="4532.862" y="1439.331" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="34.016" height="53.858"/>
 <rect x="4544.862" y="1248.012" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="7.5" height="53.5"/>
@@ -230,7 +230,7 @@
 <line fill="#F7941E" stroke="#000000" stroke-miterlimit="10" x1="2881.335" y1="1760.937" x2="2881.335" y2="1865.067"/>
 <line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="2890.657" y1="2048.976" x2="2890.657" y2="2152.677"/>
 <line fill="#F7941E" stroke="#000000" stroke-miterlimit="10" x1="2883.271" y1="2049.728" x2="2883.271" y2="2153.858"/>
-<path id='bow_porch' fill="#726658" stroke="#000000" stroke-miterlimit="10" d="M735.95,1350.436l-128.25-0.408
+<path id='bow-porch' class='area' fill="#726658" stroke="#000000" stroke-miterlimit="10" d="M735.95,1350.436l-128.25-0.408
 	c-4.997-0.088-433.367,8.584-433.367-307.027c0-328.897,429.37-308.94,432.758-308.893l128.859-0.853V1350.436z"/>
 <line fill="#726658" stroke="#000000" stroke-miterlimit="10" x1="872.189" y1="1357.578" x2="1127.307" y2="1357.578"/>
 <rect x="874.689" y="1351.579" fill="#E6E6E6" stroke="#000000" stroke-miterlimit="10" width="253.487" height="34.498"/>
@@ -245,7 +245,7 @@
 	<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="3147.474" y1="1548.242" x2="3147.474" y2="1651.943"/>
 	<line fill="#F7941E" stroke="#000000" stroke-miterlimit="10" x1="3140.087" y1="1548.994" x2="3140.087" y2="1653.124"/>
 </g>
-<polygon fill="#736357" stroke="#000000" stroke-miterlimit="10" points="2904,1707 3126,1707 3126,1753 3156,1753 3156,1905 
+<polygon id='covered-swing-porch' class='area' fill="#736357" stroke="#000000" stroke-miterlimit="10" points="2904,1707 3126,1707 3126,1753 3156,1753 3156,1905 
 	3122,1905 3122,2623 2466,2623 2466,2249.993 2904,2250.993 "/>
 <rect x="2807" y="1535" fill="#C59B6C" stroke="#000000" stroke-miterlimit="10" width="191" height="141"/>
 <line fill="#C59B6C" stroke="#000000" stroke-miterlimit="10" x1="2966" y1="1535" x2="2966" y2="1674"/>
