@@ -1,17 +1,35 @@
 $( function() {
     var $areas = $('<ul/>')
     $('#menu').append( $areas )
-    var map = document.getElementById('map')
-    map.addEventListener( 'load', function() {
-	$('[class="area"]', map.contentDocument).each( function() {
-	    $areas.append( $('<li/>').text( $(this).attr( 'id' ) ) )
+    var $map = $('#map')
+    $map.on( 'load', function() {
+	$('[class="area"]', $map[0].contentDocument).each( function() {
+	    var $area = $(this)
+	    var $item = $('<li/>').text( $area.attr( 'id' ) )
+	    $areas.append( $item )
+	    $item.hover(
+		function() {
+		    $area.attr( 'active', 'true' )
+		},
+		function() {
+		    $area.removeAttr( 'active' )
+		}
+	    )
+	    $area.hover(
+		function() {
+		    $item.attr( 'active', 'true' )
+		},
+		function() {
+		    $item.removeAttr( 'active' )
+		}
+	    )
 	} )
-    }, false )
+    } )
 
     var slideout = new Slideout( {
 	panel: document.getElementById( 'panel' ),
 	menu: document.getElementById( 'menu' ),
-	padding: 256,
+	padding: 150,
 	tolerance: 70
     } )
     $('.toggle-button').click( function() {

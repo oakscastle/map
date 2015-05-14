@@ -40,7 +40,7 @@
 <rect id='desk' class='area' x="2701.291" y="1333.297" fill="#603913" stroke="#000000" stroke-miterlimit="10" width="246.614" height="181.418"/>
 <rect x="2683.862" y="1044.012" fill="#58595B" width="215.433" height="34.016"/>
 <rect x="2684.433" y="992.726" fill="#58595B" width="215.433" height="34.016"/>
-<rect id='front_porch' class='area' x="771.144" y="734.754" fill="#726658" stroke="#000000" stroke-miterlimit="10" width="462.047" height="616.378"/>
+<rect id='front-porch' class='area' x="771.144" y="734.754" fill="#726658" stroke="#000000" stroke-miterlimit="10" width="462.047" height="616.378"/>
 <rect x="1137.044" y="950.813" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="96.378" height="206.929"/>
 <rect id='dining-room' class='area' x="3136.291" y="740.44" fill="#F7941E" stroke="#000000" stroke-miterlimit="10" width="651.97" height="490.394"/>
 <rect x="3051.436" y="1007.476" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="86.456" height="55.276"/>
