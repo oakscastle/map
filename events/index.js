@@ -5,7 +5,13 @@ $( function() {
     $map.on( 'load', function() {
 	$('[class="area"]', $map[0].contentDocument).each( function() {
 	    var $area = $(this)
-	    var $item = $('<li/>').text( $area.attr( 'id' ) )
+	    var name = $area
+		.attr( 'id' )
+		.replace( /-/g, ' ' )
+		.replace( /(?:^|\s)\S/g, function( a ) {
+		    return a.toUpperCase()
+		} )
+	    var $item = $('<li/>').text( name )
 	    $areas.append( $item )
 	    $item.hover(
 		function() {
@@ -32,6 +38,7 @@ $( function() {
 	padding: 150,
 	tolerance: 70
     } )
+    slideout.open()
     $('.toggle-button').click( function() {
 	slideout.toggle()
     } )

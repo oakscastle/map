@@ -9,11 +9,18 @@ html, body, #map {
 }
 
 #panel * {
-    display: inline;
+}
+
+#panel button {
+    margin: .75em;
+    padding: .2em .4em;
+    font-size: 20px;
 }
 
 #menu {
     width: 10em;
+    border-right: 2px #DDD dashed;
+    background-color: #EEE;
 }
 
 #menu ul {
@@ -26,5 +33,5 @@ html, body, #map {
 }
 
 #menu li:hover, #menu li[active='true'] {
-    background-color: #DDD;
+    background-color: #BBB;
 }
