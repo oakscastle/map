@@ -4,24 +4,32 @@ $( function() {
     var $map = $('#map')
     $map.on( 'load', function() {
 	$('[class="area"]', $map[0].contentDocument).each( function() {
-	    var $area = $(this)
-	    var name = $area
-		.attr( 'id' )
-		.replace( /-/g, ' ' )
-		.replace( /(?:^|\s)\S/g, function( a ) {
-		    return a.toUpperCase()
-		} )
-	    var $item = $('<li/>').text( name )
+	    function Area( elem ) {
+		this.$elem = $(elem)
+		this.name = this.$elem
+		    .attr( 'id' )
+		    .replace( /-/g, ' ' )
+		    .replace( /(?:^|\s)\S/g, function( a ) {
+			return a.toUpperCase()
+		    } )
+	    }
+	    
+	    var area = new Area( this )
+
+	    var $item = $('<li/>').text( area.name )
+
 	    $areas.append( $item )
+	    
 	    $item.hover(
 		function() {
-		    $area.attr( 'active', 'true' )
+		    area.$elem.attr( 'active', 'true' )
 		},
 		function() {
-		    $area.removeAttr( 'active' )
+		    area.$elem.removeAttr( 'active' )
 		}
 	    )
-	    $area.hover(
+
+	    area.$elem.hover(
 		function() {
 		    $item.attr( 'active', 'true' )
 		},
@@ -35,10 +43,12 @@ $( function() {
     var slideout = new Slideout( {
 	panel: document.getElementById( 'panel' ),
 	menu: document.getElementById( 'menu' ),
-	padding: 150,
+	padding: 160,
 	tolerance: 70
     } )
+
     slideout.open()
+
     $('.toggle-button').click( function() {
 	slideout.toggle()
     } )
