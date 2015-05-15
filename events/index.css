@@ -4,6 +4,10 @@ html, body, #map {
     padding: 0;
 }
 
+* {
+    -webkit-transition : all .2s linear;
+}
+
 #panel {
     position: absolute;
 }
@@ -29,9 +33,31 @@ html, body, #map {
 
 #menu li {
     list-style-type: none;
-    padding: .25em;
+    padding: .25em; 
 }
 
 #menu li:hover, #menu li[active='true'] {
     background-color: #BBB;
+}
+
+#floor {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    font-size: 55px;
+}
+
+#area {
+    position: absolute;
+    top: 3%;
+    left: 15%;
+    width: 30%;
+    font-size: 40px;
+}
+
+#schedule {
+    position: absolute;
+    top: 63%;
+    left: 15%;
+    border-collapse: collapse;
 }

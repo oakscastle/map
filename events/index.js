@@ -1,41 +1,56 @@
 $( function() {
-    var $areas = $('<ul/>')
-    $('#menu').append( $areas )
     var $map = $('#map')
+    var $areas = $('<ul/>')
+    var areas = {}
+    
+    $('#menu').append( $areas )
+
     $map.on( 'load', function() {
 	$('[class="area"]', $map[0].contentDocument).each( function() {
 	    function Area( elem ) {
 		this.$elem = $(elem)
-		this.name = this.$elem
-		    .attr( 'id' )
+		this.id = this.$elem.attr( 'id' )
+		this.name = this.id
 		    .replace( /-/g, ' ' )
 		    .replace( /(?:^|\s)\S/g, function( a ) {
 			return a.toUpperCase()
 		    } )
+		this.$item = $('<li/>')
+		    .text( this.name )
+		    .attr( { 'data-id': this.id } )
+		$areas.append( this.$item )
 	    }
-	    
+
 	    var area = new Area( this )
 
-	    var $item = $('<li/>').text( area.name )
-
-	    $areas.append( $item )
+	    areas[area.id] = area
 	    
-	    $item.hover(
-		function() {
-		    area.$elem.attr( 'active', 'true' )
-		},
-		function() {
-		    area.$elem.removeAttr( 'active' )
-		}
+	    function hovered( id ) {
+		var area = areas[id]
+		
+		area.$elem.attr( 'active', 'true' )
+		area.$item.attr( 'active', 'true' )
+		$('#area').text( area.name )
+		$('#area').css( { opacity: 1 } )
+	    }
+	    
+	    function left( id ) {
+		var area = areas[id]
+		
+		area.$elem.removeAttr( 'active' )
+		area.$item.removeAttr( 'active' )
+		$('#area').css( { opacity: 0 } )
+		$('#area').text( '' )
+	    }
+
+	    area.$item.hover(
+		function() { hovered( $(this).attr( 'data-id' ) ) },
+		function() { left( $(this).attr( 'data-id' ) ) }
 	    )
 
 	    area.$elem.hover(
-		function() {
-		    $item.attr( 'active', 'true' )
-		},
-		function() {
-		    $item.removeAttr( 'active' )
-		}
+		function() { hovered( $(this).attr( 'id' ) ) },
+		function() { left( $(this).attr( 'id' ) ) }
 	    )
 	} )
     } )
