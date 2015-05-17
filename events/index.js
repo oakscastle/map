@@ -67,4 +67,6 @@ $( function() {
     $('.toggle-button').click( function() {
 	slideout.toggle()
     } )
+
+    $('#schedule').accordion()
 } )
