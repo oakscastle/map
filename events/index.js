@@ -68,5 +68,5 @@ $( function() {
 	slideout.toggle()
     } )
 
-    $('#schedule').accordion()
+    //$('#schedule').accordion()
 } )

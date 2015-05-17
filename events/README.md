@@ -1,5 +1,5 @@
-# Setup
+# An Oaks Hackathon
 
-* sudo apt-get install npm nodejs-legacy
-* sudo npm install bower -g
-* bower install slideout.js
+[The Oaks Castle](http://oakscastle.org) is a 14,000²" mansion in Johnson City, TN. [Create Appalachia](//createappalachia.org) is trying to purchase it for a public artspace.
+
+This is a mockup of an interface for dynamically scheduling a hackathon.
